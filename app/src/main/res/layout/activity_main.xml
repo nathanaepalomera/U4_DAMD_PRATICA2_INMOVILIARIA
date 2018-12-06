@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#edecb3f2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#c5cea7a7"
+        android:gravity="center"
+        android:text="PROPIETARIOS"
+        android:textColor="#080808"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Identificador"
+            android:textColor="#080808"
+            android:textStyle="bold"
+            android:background="#c5cea7a7"
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="id"
+            android:background="#ffffff"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:layout_marginRight="25dp"
+            android:id="@+id/ide"
+            android:padding="9dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Nombre"
+            android:textColor="#080808"
+            android:textStyle="bold"
+            android:background="#c5cea7a7"
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:ems="15"
+            android:layout_marginRight="25dp"
+            android:id="@+id/nombre"
+            android:padding="9dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Domicilio"
+        android:textColor="#080808"
+        android:textStyle="bold"
+        android:background="#c5cea7a7"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:ems="15"
+        android:layout_marginRight="25dp"
+        android:id="@+id/domicilio"
+        android:padding="9dp"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Telefono"
+            android:textColor="#080808"
+            android:textStyle="bold"
+            android:background="#c5cea7a7"
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:ems="15"
+            android:layout_marginRight="25dp"
+            android:id="@+id/telefono"
+            android:padding="9dp"
+            />
+
+    </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Insetar"
+            android:ems="10"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/insertar"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="Consultar"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/consultar"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Borrar"
+            android:ems="10"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/borrar"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="Actualizar"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/actualizar"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:text="INMUEBLE"
+        android:textSize="15dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/sig"/>
+
+
+
+</LinearLayout>
